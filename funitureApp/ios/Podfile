@@ -5,6 +5,7 @@ platform :ios, '10.0'
 
 target 'funitureApp' do
   config = use_native_modules!
+pod 'RNSVG', :path => '../node_modules/react-native-svg'
 
   use_react_native!(
     :path => config[:reactNativePath],
